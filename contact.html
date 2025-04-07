@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="dstyle.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/image/logo.png" alt="Logo" class="logo-img">
+      Softrec
+    </div>
+    
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="alumni.html">Alumni</a></li>
+      <li><a href="updates.html">Updates</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      ☰
+    </div>
+  </nav>
+  <div class="contact-wrapper">
+  <div class="contact-form">
+    <h2 class="contact">Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" maxlength="30" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" maxlength="100" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  </div>
+</body>
+</html>
